@@ -1,0 +1,23 @@
+{
+  "app": {
+    "package": "app_name",
+    "description": {
+      "value": "View xkcd comics in Zendesk",
+      "title": "app description"
+    },
+    "name": {
+      "value": "xkcd comics",
+      "title": "app name"
+    }
+  },
+
+  "loading": {
+    "value": "Loading comics",
+    "title": "loading placeholder"
+  },
+
+  "refresh": {
+    "value": "Refresh Comic",
+    "title": "refresh button text"
+  }
+}

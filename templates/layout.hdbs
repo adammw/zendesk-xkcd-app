@@ -1,0 +1,9 @@
+<header>
+  <span class="logo"/>
+  <button data-role="reload-comic" class="action_button reload_apps">
+    <span>{{t "refresh"}}</span>
+    <i class="icon-refresh"></i>
+  </button>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main/>

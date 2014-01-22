@@ -1,0 +1,10 @@
+header .action_button {
+  float: right;
+  padding: 6px 0;
+}
+header .action_button span {
+  display: none;
+}
+header .action_button:hover span {
+  display: inline;
+}

@@ -1,0 +1,6 @@
+<h4>#{{comic.num}}: {{comic.title}}</h4>
+<div class="image">
+  <a href="http://xkcd.com/{{comic.num}}/" title="{{comic.alt}}" target="_blank">
+    <img src="{{comic.img}}" title="{{comic.alt}}" />
+  </a>
+</div>
