@@ -6,7 +6,7 @@
       getComic: function(id) {
         var url = 'http://xkcd.com/';
         if (id) url += id + '/';
-        url += 'info.0.json'
+        url += 'info.0.json';
         return {
           url: url,
           proxy_v2: true,
@@ -28,7 +28,7 @@
         var num = Math.ceil(Math.random() * max);
         zen.ajax('getComic', num).done(function(data) {
           zen.switchTo('comic', {comic: data});
-        })
+        });
       });
     }
   };
